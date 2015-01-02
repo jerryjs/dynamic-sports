@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "dynamic-sports: An Ionic project",
   "scripts": {
-    "test": "node_modules/karma/bin/karma start tests/karma.config.js"
-  },
+      "test": "node_modules/karma/bin/karma start tests/karma.config.js",
+      "ios": "gulp sass && ionic emulate ios"
+    },
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^0.7.1",
