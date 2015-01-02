@@ -1,7 +1,7 @@
 (function(){
 
   angular
-  .module('dynamic-sports', ['ionic', 'dynamic-sports.controllers'])
+  .module('dynamic-sports', ['ionic', 'dynamic-sports.controllers', 'dynamic-sports.services', 'dynamic-sports.directives'])
 
   .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {

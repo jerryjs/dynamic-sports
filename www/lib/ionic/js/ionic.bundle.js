@@ -2224,7 +2224,7 @@ window.ionic.version = '1.0.0-beta.14';
       } else if (this.ua.indexOf('Windows Phone') > -1) {
         platformName = WINDOWS_PHONE;
       } else {
-        platformName = ionic.Platform.navigator.platform && navigator.platform.toLowerCase().split(' ')[0] || '';
+        platformName = ionic.Platform.navigator.platform && ionic.Platform.navigator.platform.toLowerCase().split(' ')[0] || '';
       }
     },
 
